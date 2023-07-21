@@ -22,7 +22,7 @@
 
 ### .vimrcファイルを取得して、ホームディレクトリに置く
     
-    $ git clone https://github.com/lachelier/vimrc.git
+    $ git clone https://github.com/muchoco-dev/vimrc.git
     $ mv vimrc/.vimrc .
     $ rm -r vimrc/
 
