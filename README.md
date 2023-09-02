@@ -1,9 +1,9 @@
-### 必要なパッケージが入っているか確認(なければインストール sudo yum install )
+### 必要なパッケージが入っているか確認(なければインストール sudo dnf install )
 
-    $ yum list installed | grep mercurial
-    $ yum list installed | grep ncurses-devel
-    $ yum list installed | grep make
-    $ yum list installed | grep gcc
+    $ dnf list installed | grep mercurial
+    $ dnf list installed | grep ncurses-devel
+    $ dnf list installed | grep make
+    $ dnf list installed | grep gcc
 
 ### 7.4以上のvimが入っていることを確認
 
