@@ -1,4 +1,4 @@
-### 必要なパッケージが入っているか確認(なければインストール sudo dnf install )
+### 必要なパッケージが入っているか確認
 
 #### CentOS
 
@@ -7,14 +7,18 @@
     $ dnf list installed | grep make
     $ dnf list installed | grep gcc
 
+なければインストール sudo dnf install {パッケージ名}
+
 #### Ubuntu
 
 ```
 $ apt list --installed | grep mercurial
 $ apt list --installed | grep ncurses-devel
 $ apt list --installed | grep make
-$ atp list --installed | grep gcc
+$ apt list --installed | grep gcc
 ```
+
+なければインストール sudo apt install {パッケージ名}
 
 ### 7.4以上のvimが入っていることを確認
 
