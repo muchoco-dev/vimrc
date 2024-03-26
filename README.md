@@ -38,7 +38,7 @@ $ apt list --installed | grep gcc
 ### .vimrcファイルを取得して、ホームディレクトリに置く
     
     $ git clone https://github.com/muchoco-dev/vimrc.git
-    $ mv vimrc/.vimrc .
+    $ mv vimrc/.vimrc ~
     $ rm -r vimrc/
 
 ### vim実行
